@@ -8,7 +8,6 @@ if [ $# -ne 0 ]; then
         valid) 
             echo "runing tuning.sh"
             python ./tuning.py
-
         ;;
         belu) 
             echo "runing belu.sh"
